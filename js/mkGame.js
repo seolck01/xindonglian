@@ -352,7 +352,7 @@ function mkGame(size, levelBoxsA, reline) {
         }
         if (gameTimer) window.clearInterval(gameTimer);
         if (reline == 0) {
-            count = 360;
+            count = 999999999;
             $("#timebar").css({ "width": count });
         } else {
             $("#timebar").css({ "width": count });
